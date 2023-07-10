@@ -62,6 +62,6 @@ print(output)
 #print(revenue_change_list)
 
 #Export results to text file
-output_path = os.path.join("..", "Output", "financial_analysis.csv")
+output_path = os.path.join("..", "Analysis", "financial_analysis.csv")
 with open(output_path, "w") as txt_file:
   txt_file.write(output)
