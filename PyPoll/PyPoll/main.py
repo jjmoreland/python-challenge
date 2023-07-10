@@ -63,7 +63,7 @@ import os
 import csv
 
 # Specify the file to write to
-output_path = os.path.join("..", "Output", "results.csv")
+output_path = os.path.join("..", "Analysis", "results.csv")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w') as csvfile:
